@@ -129,19 +129,27 @@
   <ItemGroup>
     <ClCompile Include="Afrika.cpp" />
     <ClCompile Include="AnimalWorld.cpp" />
+    <ClCompile Include="Bison.cpp" />
     <ClCompile Include="Carnivore.cpp" />
     <ClCompile Include="Continent.cpp" />
     <ClCompile Include="Herbivore.cpp" />
+    <ClCompile Include="Lion.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="NorthAmerika.cpp" />
     <ClCompile Include="Wildbeest.cpp" />
+    <ClCompile Include="Wolf.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Afrika.h" />
     <ClInclude Include="AnimalWorld.h" />
+    <ClInclude Include="Bison.h" />
     <ClInclude Include="Carnivore.h" />
     <ClInclude Include="Continent.h" />
     <ClInclude Include="Herbivore.h" />
+    <ClInclude Include="Lion.h" />
+    <ClInclude Include="NorthAmerika.h" />
     <ClInclude Include="Wildbeest.h" />
+    <ClInclude Include="Wolf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

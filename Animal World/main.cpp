@@ -1,5 +1,14 @@
 ﻿#include "AnimalWorld.h"
 #include "Continent.h"
+#include "Carnivore.h"
+#include "Herbivore.h"
+#include "Afrika.h"
+#include "Bison.h"
+#include "NorthAmerika.h"
+#include "Lion.h"
+#include "Wildbeest.h"
+#include "Wolf.h"
+
 #include <iostream>
 using namespace std;
 
