@@ -1,4 +1,5 @@
 ﻿#include "AnimalWorld.h"
+#include "Continent.h"
 #include <iostream>
 using namespace std;
 
@@ -6,11 +7,11 @@ int main() {
 	cout << "Continent information: " << endl;
 	AnimalWorld animalWorld;
 
-	Continent* afrika = new Afrika("Afrika", 28, 32.00);
+	Continent* afrika = new Afrika("Afrika", 30, 32.00);
 	afrika->Print();
 	cout << endl << endl;
 
-	Continent* northAmerika = new NorthAmerika("North Amerika", 16, 17.00);
+	Continent* northAmerika = new NorthAmerika("North Amerika", 23, 17.00);
 	northAmerika->Print();
 	cout << "------------------" << endl;
 
@@ -30,15 +31,14 @@ int main() {
 	carnivore2->Print();
 	cout << endl << endl;
 
-
+	//all herbivores go to eat
 	animalWorld.MealsHerbivores();
 	herbivore1->Print();
 	cout << endl << endl;
 	herbivore2->Print();
 	cout << "------------------" << endl;
 
-
-
+	//all carnivores go to eat
 	animalWorld.NutritionCarnivores();
 	herbivore1->Print();
 	cout << endl << endl;

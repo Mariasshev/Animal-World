@@ -127,10 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Afrika.cpp" />
+    <ClCompile Include="AnimalWorld.cpp" />
+    <ClCompile Include="Carnivore.cpp" />
+    <ClCompile Include="Continent.cpp" />
+    <ClCompile Include="Herbivore.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Wildbeest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Afrika.h" />
     <ClInclude Include="AnimalWorld.h" />
+    <ClInclude Include="Carnivore.h" />
+    <ClInclude Include="Continent.h" />
+    <ClInclude Include="Herbivore.h" />
+    <ClInclude Include="Wildbeest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
