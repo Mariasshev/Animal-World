@@ -22,7 +22,7 @@ void Lion::Print()
 {
 	cout << "Name: " << name << endl;
 	cout << "Weight: " << power << endl;
-	cout << "Continent: " << GetContinent();
+	cout << "Continent: " << continent->GetContinent();
 }
 void Lion::EatHerbivore(Herbivore* obj)
 {

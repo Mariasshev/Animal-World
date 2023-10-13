@@ -13,10 +13,6 @@ void Afrika::Print() {
 	cout << "temperature: " << temperature << endl;
 }
 
-char* Afrika::GetContinent() {
-	return name;
-}
-
 Afrika::~Afrika() {
 	delete herbivore;
 	delete carnivore;

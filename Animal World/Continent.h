@@ -10,6 +10,7 @@ public:
 	void Input();
 	virtual void Print();
 	char* GetContinent();
+
 	virtual ~Continent();
 };
 

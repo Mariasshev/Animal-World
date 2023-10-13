@@ -1,5 +1,7 @@
 #pragma once
 #include <iostream>
+#include "Carnivore.h"
+#include "Herbivore.h"
 using namespace std;
 
 class AnimalWorld
@@ -11,6 +13,7 @@ private:
 public:
 	static int count_herbivore;
 	static int count_carnivore;
+
 	AnimalWorld();
 	void AddCarnivore(Carnivore* carn);
 	void AddHerbivore(Herbivore* herb);

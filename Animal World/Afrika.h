@@ -1,4 +1,5 @@
 #pragma once
+#include "Continent.h"
 #include "Herbivore.h"
 #include "Carnivore.h"
 
@@ -9,9 +10,8 @@ private:
 	Carnivore* carnivore;
 public:
 	Afrika() = default;
-	Afrika(const char* n, int t, double s) :Continent(n, t, s) {}
-	virtual void Print();
-	char* GetContinent();
+	Afrika(const char* n, int t, double s);
+	void Print();
 	~Afrika();
 };
 

@@ -1,4 +1,7 @@
 #pragma once
+#include "Herbivore.h"
+#include "Continent.h"
+#include "Carnivore.h"
 #include "Continent.h"
 
 class NorthAmerika : public Continent

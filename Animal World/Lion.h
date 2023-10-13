@@ -1,4 +1,8 @@
 #pragma once
+#include "AnimalWorld.h"
+#include "Carnivore.h"
+#include "Continent.h"
+
 #include <iostream>
 using namespace std;
 
